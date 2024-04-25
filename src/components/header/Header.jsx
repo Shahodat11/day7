@@ -33,6 +33,9 @@ const Header = () => {
             <NavLink className="nav__link" to={"/blog"}>
               Blog
             </NavLink>
+            <NavLink className="nav__link" to={"/product"}>
+              Product
+            </NavLink>
             <button className="nav__btn">Clone project</button>
           </div>
           <button onClick={() => setToggel(!toggel)}>

@@ -10,6 +10,7 @@ import NotFound from "./components/not-fount/NotFound";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import "./scss/index.scss";
+import Product from "./components/product/Product";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/careers" element={<Careers />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/product" element={<Product/>} />
       </Routes>
       <Footer />
     </>
